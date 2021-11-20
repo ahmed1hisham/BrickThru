@@ -1,7 +1,7 @@
 # BrickThru
 ![Logo](https://user-images.githubusercontent.com/36399893/142739089-30e61f10-7c2d-4071-9e11-8b09551447ff.png)
 
-Firefighters risk their own lives to keep everyone else's safety; they deserve a tool to make their jobs faster, easier and safer. For this reason, we developed BrickThru mobile application that helps them detect and locate people in a burning building. We built the solution around the idea that humans ha a unique effect on the signal they interfere with within a specific wi-fi network range. There is a good amount of research that shows how we can apply this concept to achieve Human Detection and Human Activity Recognition (E.g. walking, running, falling, breathing). In this project, we collect Wi-fi Channel State Information (CSI), perform necessary filters to remove noise from the signal and utilize IBM's powerful machine learning tools to predict human existence and track their location in real-time.
+Firefighters risk their own lives to keep everyone else's safety; they deserve a tool to make their jobs faster, easier and safer. For this reason, we developed BrickThru mobile application that helps them detect and locate people in burning buildings. We built the solution around the idea that humans ha a unique effect on the signal they interfere with within a specific wi-fi network range. There is a good amount of research that shows how we can apply this concept to achieve Human Detection and Human Activity Recognition (E.g. walking, running, falling, breathing). In this project, we collect Wi-fi Channel State Information (CSI), perform necessary filters to remove noise from the signal and utilize IBM's powerful machine learning tools to predict human existence and track their location in real-time.
 
 
 ## Contents
@@ -14,9 +14,11 @@ Firefighters risk their own lives to keep everyone else's safety; they deserve a
     - [The idea](#the-idea)
   - [Demo video](#demo-video)
   - [The architecture](#the-architecture)
-  - [User Flow] (#user-flow)
+  - [User Flow](#user-flow)
     - [Onboarding](#the-onboarding)
     - [Authentication](#the-authentication)
+    - [Crew Management](#crew-management)
+    - [Mission Management](#mission-management)
   - [Long description](#long-description)
   - [Project roadmap](#project-roadmap)
   - [Getting started](#getting-started)
@@ -44,7 +46,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Demo video
 
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://user-images.githubusercontent.com/36399893/142743014-0180588b-ee16-4212-90e3-95bd7b5a78e8.png)](https://youtu.be/nF6zjdPKHig)
 
 ## The architecture
 
@@ -68,6 +70,21 @@ It's imperative that learning and creating can continue when educational institu
 ![2](https://user-images.githubusercontent.com/36399893/142741101-05bcbfed-e7f0-483e-a9d0-a6c42f6dc275.png)
 ![3](https://user-images.githubusercontent.com/36399893/142741102-691d39f2-3c3a-469d-af33-8cf4211489aa.png)
 ![4](https://user-images.githubusercontent.com/36399893/142741105-252bfb0e-f973-4235-92d4-d596662486c8.png)
+
+### Crew Management
+![1](https://user-images.githubusercontent.com/36399893/142741612-e2487018-c5d5-4433-8e4a-08d04b84b5e9.png)
+![2](https://user-images.githubusercontent.com/36399893/142741617-23375d6e-06b5-43a2-8ab3-11ee6465645a.png)
+![3](https://user-images.githubusercontent.com/36399893/142741619-55a84083-d73e-4ca4-aa7d-0c1271380c16.png)
+![4](https://user-images.githubusercontent.com/36399893/142741622-4761aa63-dccc-4d1a-9923-5e07f5549150.png)
+![5](https://user-images.githubusercontent.com/36399893/142741624-410900ae-eb13-4627-8eb7-8d01706ef746.png)
+
+### Mission Management
+![1](https://user-images.githubusercontent.com/36399893/142741761-5685eada-a600-4f11-9c1e-65bec860b10b.png)
+![2](https://user-images.githubusercontent.com/36399893/142741763-aa0b9ac1-2fb2-4b77-aa9d-5988b81af746.png)
+![3](https://user-images.githubusercontent.com/36399893/142741766-fe054fa2-f0ff-482a-bdd1-2a5de0c7d6ef.png)
+![4](https://user-images.githubusercontent.com/36399893/142741770-c1e80341-58cf-4588-b81b-f0dee197d28c.png)
+![5](https://user-images.githubusercontent.com/36399893/142741852-95993c56-d91f-4cb4-b580-7c2e19ff4a6c.png)
+![6](https://user-images.githubusercontent.com/36399893/142741979-e74b430d-8dee-403d-975f-fe31d72ac421.png)
 
 
 
