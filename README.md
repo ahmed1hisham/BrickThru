@@ -90,17 +90,20 @@ Paragraph this video shows
 
 ## The architecture
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
-
 ### Hardware Setup
 ![Hardware](https://user-images.githubusercontent.com/36338906/142749590-977903f1-fda3-4508-a45b-25f00bc75909.png)
-Router could be replaced with ESP32 with strong antenna or partner with Samsung to collect CSI from mobile
+
+In the setup we use a Samsung Android Phone connected to an esp32 development board using an OTG cable. We utilize a Router or an Access Point on the other side. The router and esp32 board exchange packets in a regular manner and the esp32 extracts CSI data during that process.
+
+CSI data can be collected directly on a smartphone, however, most companies do not give developers access to it. We can partner with Samsung to collect CSI from mobile directly, and in this case we can get rid of the ESP32 and the OTG cable. The Firefighter would only need his phone, and such a feature would exclusvely be available on Samsung devices.
+
+The Router could be replaced with ESP32 with strong antenna or a Wi-Fi directed antenna.
 
 ### Software Setup
 ![Software](https://user-images.githubusercontent.com/36338906/142749610-333efcc0-439d-49c6-ab6c-1e817f6d5669.png)
+
+CSI data collected is pre-processed by the Android phone. Pre-processing include filtering, de-noising and running detection helper algorithms to trigger the real-time machine learning predictions.
+We train the model using a dataset in different environments and using different human activities which makes it able to accurately detect human presence.
 
 
 ## User Flow
