@@ -8,21 +8,28 @@ Firefighters risk their own lives to keep everyone else's safety; they deserve a
 
 - [BrickThru](#brickthru)
   - [Content](#content)
-  - [Short description](#short-description)
-    - [What's the problem?](#whats-the-problem)
-    - [How can technology help?](#how-can-technology-help)
-    - [The idea](#the-idea)
-  - [Demo video](#demo-video)
-  - [The architecture](#the-architecture)
-  - [User Flow](#user-flow)
-    - [Onboarding](#the-onboarding)
-    - [Authentication](#the-authentication)
-    - [Crew Management](#crew-management)
-    - [Mission Management](#mission-management)
-  - [Long description](#long-description)
+  - [1 Short description](#short-description)
+    - [1.1 What's the problem?](#whats-the-problem)
+    - [1.2 How can technology help?](#how-can-technology-help)
+    - [1.3 The idea](#the-idea)
+  - [2 Background](#the-background)
+    - [2.1 What is CSI?](#define-csi)
+    - [2.2 How to Collect CSI?](#collect-csi)
+    - [2.3 CSI applications](#csi-applications)
+    - [Wi-fi and fires](#wifi-fire)
+    - [2.4 Literature](#the-literature)
+  - [3 The Architecture](#the-architecture)
+    - [3.1 Hardware Setup](#hardware-setup)
+    - [3.2 Software Setup](#software-setup)
+  - [4 Video Demo](#video-demo)
+  - [5 User Flow](#user-flow)
+    - [5.1 Onboarding](#the-onboarding)
+    - [5.2 Authentication](#the-authentication)
+    - [5.3 Crew Management](#crew-management)
+    - [5.4 Mission Management](#mission-management)
+  - [3 Pitch](#the-pitch)
   - [Project roadmap](#project-roadmap)
   - [Getting started](#getting-started)
-  - [Live demo](#live-demo)
   - [Built with](#built-with)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
@@ -30,36 +37,44 @@ Firefighters risk their own lives to keep everyone else's safety; they deserve a
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-## Short description
+## 1 Short description
 
-### What's the problem?
+### 1.1 What's the problem?
 
 When firefighters arrive at fire scenes, they only have a few seconds to make decisions. Sometimes they don't have enough givens, they may not know whether there are people in the flames to rescue or not. They may not know how many people are there or where they are. They carry the fear of not being fast enough through the mission and the guilt of missing anyone after it.
 
-### How can technology help?
+### 1.2 How can technology help?
 
 Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
 
-### The idea
+### 1.3 The idea
 
 It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
 
-## Video Demo
+## 2 Video Demo
+
+Paragraph this video shows
 
 [![Watch the video](https://user-images.githubusercontent.com/36338906/142749433-526e6d1b-454b-4c82-9b23-219dd53ca81c.png)](https://youtu.be/X8YdR6K8-n0)
 
-## Pitch Video
+## 3 Pitch
 
 [![Watch the video](https://user-images.githubusercontent.com/36399893/142743014-0180588b-ee16-4212-90e3-95bd7b5a78e8.png)](https://youtu.be/nF6zjdPKHig)
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
-
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
 3. Watson Translation (optionally) can translate the text to the desired language.
 4. The app stores the translated text as a document within Object Storage.
+
+### Hardware Setup
+![Hardware](https://user-images.githubusercontent.com/36338906/142749590-977903f1-fda3-4508-a45b-25f00bc75909.png)
+Router could be replaced with ESP32 with strong antenna or partner with Samsung to collect CSI from mobile
+
+### Software Setup
+![Software](https://user-images.githubusercontent.com/36338906/142749610-333efcc0-439d-49c6-ab6c-1e817f6d5669.png)
+
 
 ## User Flow
 
