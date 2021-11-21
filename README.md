@@ -46,7 +46,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## Video Demo
 
-[![Watch the video](https://user-images.githubusercontent.com/36399893/142743014-0180588b-ee16-4212-90e3-95bd7b5a78e8.png)](https://youtu.be/X8YdR6K8-n0)
+[![Watch the video](https://user-images.githubusercontent.com/36338906/142749433-526e6d1b-454b-4c82-9b23-219dd53ca81c.png)](https://youtu.be/X8YdR6K8-n0)
 
 ## Pitch Video
 
