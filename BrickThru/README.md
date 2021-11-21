@@ -15,7 +15,7 @@ This is the react native application directory for BrickThru. This contains an A
 #### Steps to build and run
 Running the react native app is relatively simple. All you need to do is to setup react native on your machine through following the steps in the [React Native Docs](https://reactnative.dev/docs/getting-started) and then doing the following:
 
-  - Replace the `IBM_API_KEY` variable in the `MachineLearningService.js` file with your own api key.
+  - Replace the `IBM_API_KEY` variable in the `MachineLearningService.js` file with a valid api key.
   - Run `npm install` in the BrickThru root directory.
   - Then run `npx react-native run-android` in the same directory.
   - Then the application should be running on the emulator you setup through the link above.
