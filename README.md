@@ -133,4 +133,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## 11) Acknowledgments
 
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+- We used this library [this](https://stevenmhernandez.github.io/ESP32-CSI-Tool/) to collect CSI.
