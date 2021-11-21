@@ -45,11 +45,11 @@ When firefighters arrive at fire scenes, they only have a few seconds to make de
 
 ### 1.2 How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+Technology can help in drastically solving such a problem. A recent technology known as Wi-Fi sensing can be utilized to allow us to see through walls during critical times such as in a fire scene. That's achievable because of the unique effect human beings cause when they exist inside a wifi network. Collecting enough information about the wifi network helps us in detecting and locating human beings within the range of the network.
 
 ### 1.3 The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+It's traumatic، not being able to rescue someone from death. A helpless feeling, especially when seeing these people's parents/chidren crying their eyes out and maybe even throwing blame. Having to live with that is unimaginable. BrickThru enables Firefighters to detect, locate and visualize humans inside a building on fire, which will allow them to rescue people easily, efficiently and in time. All that through utilizing Wifi networks, IBM Cloud tools and Watson Services.
 
 ## 2 Background
 
