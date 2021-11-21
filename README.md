@@ -12,12 +12,12 @@ Firefighters risk their own lives to keep everyone else's safety; they deserve a
     - [1.1) What's the problem?](#whats-the-problem)
     - [1.2) How can technology help?](#how-can-technology-help)
     - [1.3) The idea](#the-idea)
-  - [2 Background](#the-background)
-    - [2.1 What is CSI?](#define-csi)
-    - [2.2 How to Collect CSI?](#collect-csi)
-    - [2.3 CSI applications](#csi-applications)
-    - [Wi-fi and fires](#wifi-fire)
-    - [2.4 Literature](#the-literature)
+  - [2) Background](#the-background)
+    - [2.1) What is CSI?](#define-csi)
+    - [2.2) How to Collect CSI?](#collect-csi)
+    - [2.3) CSI applications](#csi-applications)
+    - [2.4) Wi-fi and fires](#wifi-fire)
+    - [2.5) Literature](#the-literature)
   - [3 The Architecture](#the-architecture)
     - [3.1 Hardware Setup](#hardware-setup)
     - [3.2 Software Setup](#software-setup)
@@ -49,12 +49,12 @@ Research surrounding Device-free Wifi-Sensing (DFWS) is becoming more prevalent 
 
 ### 1.3) The idea
 
-It's traumatic، not being able to rescue someone from death. A helpless feeling, especially when seeing these people's parents/chidren crying their eyes out and maybe even throwing blame. Having to live with that is unimaginable. BrickThru enables Firefighters to detect, locate and visualize humans inside a building on fire, which will allow them to rescue people easily, efficiently and in time. All that through utilizing Wifi networks, IBM Cloud tools and Watson Services.
+Firefighters arrive at fire scenes wearing heavy gears and barely seeing or breathing from all the smoke. They have to make decisions a few seconds after they arrive. The pressure is immense knowing they're responsible for peoples' lives, and there might be people inside relying on them. By closing the data gap to firefighters (using IBM's powerful machine learning tools) in fire scenes, they can do their jobs faster, safer, and better without the extra pressure and guilt. We provide them with live dashboards to track people who need to be rescued within a fire scene and allocate them to the nearest firefighters. Additionally, we help the crew look after one another by tracking their health metrics through Samsung smartwatches and notifying the captain in case something doesn't look right.
 
 ## 2 Background
 
 ### 2.1 What is CSI?
-Channel state information (CSI) includes specific indicators such as carrier signal strength, amplitude, phase, and signal delay. These indicators reveal the signal scattering, reflection, and power attenuation phenomena that occur with the carrier as the transmission distance changes. It can be used to measure the channel status of the wireless network in Wi-Fi communication. By analyzing and studying the changes in CSI, we can conversely speculate on the changes in the physical environment that cause the changes in the channel state, that is, to achieve non-contact intelligent sensing. CSI is extremely sensitive to environmental changes. In addition to perceiving environmental changes caused by large movements such as walking and running of people or animals, it can also capture subtle movements caused by small movements such as breathing and chewing of people or animals in a static environment.
+Channel state information (CSI) indicates carrier signal strength, amplitude, phase, and signal delay, which vary according to the transmission distance. Such variance reveals the signal scattering, reflection, and power attenuation phenomena within the carrier, and can be used to measure the channel status of the wireless network in Wi-Fi communication. By analyzing and studying the changes in CSI, we can conclude the changes in the physical environment that cause the changes in the channel state and achieve non-contact intelligent sensing. CSI is extremely sensitive to environmental changes caused by large movements (E.g. walking/ running) and subtle movements (E.g. breathing/ chewing).
 
 ### 2.2 How to collect CSI?
 CSI can be collected through various commonly known tools such as:
