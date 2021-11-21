@@ -127,11 +127,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## 10) Authors
 
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+-Ahmed Hisham
+-Salma Medhat
 
 
 ## 11) Acknowledgments
