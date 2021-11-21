@@ -44,7 +44,11 @@ Schools and teachers can continue to engage with their students through virtual 
 
 It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
 
-## Demo video
+## Video Demo
+
+[![Watch the video](https://user-images.githubusercontent.com/36399893/142743014-0180588b-ee16-4212-90e3-95bd7b5a78e8.png)](https://youtu.be/X8YdR6K8-n0)
+
+## Pitch Video
 
 [![Watch the video](https://user-images.githubusercontent.com/36399893/142743014-0180588b-ee16-4212-90e3-95bd7b5a78e8.png)](https://youtu.be/nF6zjdPKHig)
 
@@ -108,11 +112,8 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Getting started
 
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
+- To run the app you can follow the steps in the [BrickThru react-native](./BrickThru) directory.
+- In order to prepare and flash the ESP32, you can follow the steps of the [ESP CSI Toolkit](https://stevenmhernandez.github.io/ESP32-CSI-Tool/) we used.
 
 ## Live demo
 
