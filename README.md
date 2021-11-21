@@ -51,6 +51,33 @@ Schools and teachers can continue to engage with their students through virtual 
 
 It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
 
+## 2 Background
+
+### 2.1 What is CSI?
+Channel state information (CSI) includes specific indicators such as carrier signal strength, amplitude, phase, and signal delay. These indicators reveal the signal scattering, reflection, and power attenuation phenomena that occur with the carrier as the transmission distance changes. It can be used to measure the channel status of the wireless network in Wi-Fi communication. By analyzing and studying the changes in CSI, we can conversely speculate on the changes in the physical environment that cause the changes in the channel state, that is, to achieve non-contact intelligent sensing. CSI is extremely sensitive to environmental changes. In addition to perceiving environmental changes caused by large movements such as walking and running of people or animals, it can also capture subtle movements caused by small movements such as breathing and chewing of people or animals in a static environment.
+
+### 2.2 How to collect CSI?
+CSI can be collected through various commonly known tools such as:
+  - [Atheros CSI tool](https://wands.sg/research/wifi/AtherosCSI/)
+  - [Esp32 CSI Toolkit](https://stevenmhernandez.github.io/ESP32-CSI-Tool/)
+  - [ESP-CSI tool](https://github.com/espressif/esp-csi)
+
+### 2.3 CSI Applications
+  #### Intruder detection
+  Select high-sensitivity sub-carrier combinations and signals from non-line-of-sight path directions in different multipath propagation environments, thereby enhancing the sensitivity of passive person detection and expanding the detection range. This method can form "no blind spot" intruder detection in security applications. The multipath propagation characteristics of wireless signals indoors make wireless perception have natural advantages in sensing range and directionality.
+  #### Positioning and ranging
+You can learn from the RSSI method and use CSI as a more informative fingerprint (including information on signal amplitude and phase on multiple subcarriers), or rely on a frequency selective attenuation model for more accurate ranging.
+  #### Human activity detection and recognition
+  Use CSI's high sensitivity to environmental changes to recognize human movements, gestures, breathing and other small movements and daily activities.
+
+  #### Fire Detection
+  CSI can be used to detect fires as studied and implemented [here](https://www.huangyongzhi.com.cn/data/WiFire.pdf). However, in BrickThru we are currently working on reversing that research methodolgy in the filtering process so that we can completely exclude fire in a fire scene.
+
+### 2.4 Literature
+https://www.hindawi.com/journals/misy/2020/3185416/
+https://github.com/espressif/esp-csi
+https://www.huangyongzhi.com.cn/data/WiFire.pdf
+
 ## 2 Video Demo
 
 Paragraph this video shows
