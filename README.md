@@ -1,17 +1,17 @@
 # BrickThru
 ![Logo](https://user-images.githubusercontent.com/36399893/142739089-30e61f10-7c2d-4071-9e11-8b09551447ff.png)
 
-Firefighters risk their own lives to keep everyone else's safety; they deserve a tool to make their jobs faster, easier and safer. For this reason, we developed BrickThru mobile application that helps them detect and locate people in burning buildings. We built the solution around the idea that humans ha a unique effect on the signal they interfere with within a specific wi-fi network range. There is a good amount of research that shows how we can apply this concept to achieve Human Detection and Human Activity Recognition (E.g. walking, running, falling, breathing). In this project, we collect Wi-fi Channel State Information (CSI), perform necessary filters to remove noise from the signal and utilize IBM's powerful machine learning tools to predict human existence and track their location in real-time.
+Firefighters risk their own lives to keep everyone else's safety; they deserve a tool to make their jobs faster, easier and safer. For this reason, we developed BrickThru mobile application that helps them detect and locate people in burning buildings. We built the solution around the idea that humans have a unique effect on the signal they interfere with within a specific wi-fi network range. There is a good amount of research that shows how we can apply this concept to achieve Human Detection and Human Activity Recognition (E.g. walking, running, falling, breathing). In this project, we collect Wi-fi Channel State Information (CSI), perform necessary filters to remove noise from the signal and utilize IBM's powerful machine learning tools to predict human existence and track their location in real-time.
 
 
 ## Content
 
 - [BrickThru](#brickthru)
   - [Content](#content)
-  - [1 Short description](#short-description)
-    - [1.1 What's the problem?](#whats-the-problem)
-    - [1.2 How can technology help?](#how-can-technology-help)
-    - [1.3 The idea](#the-idea)
+  - [1) Short Description](#short-description)
+    - [1.1) What's the problem?](#whats-the-problem)
+    - [1.2) How can technology help?](#how-can-technology-help)
+    - [1.3) The idea](#the-idea)
   - [2 Background](#the-background)
     - [2.1 What is CSI?](#define-csi)
     - [2.2 How to Collect CSI?](#collect-csi)
@@ -37,17 +37,17 @@ Firefighters risk their own lives to keep everyone else's safety; they deserve a
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-## 1 Short description
+## 1) Short Description
 
-### 1.1 What's the problem?
+### 1.1) What's the problem?
 
 When firefighters arrive at fire scenes, they only have a few seconds to make decisions. Sometimes they don't have enough givens, they may not know whether there are people in the flames to rescue or not. They may not know how many people are there or where they are. They carry the fear of not being fast enough through the mission and the guilt of missing anyone after it.
 
-### 1.2 How can technology help?
+### 1.2) How can technology help?
 
-Technology can help in drastically solving such a problem. A recent technology known as Wi-Fi sensing can be utilized to allow us to see through walls during critical times such as in a fire scene. That's achievable because of the unique effect human beings cause when they exist inside a wifi network. Collecting enough information about the wifi network helps us in detecting and locating human beings within the range of the network.
+Research surrounding Device-free Wifi-Sensing (DFWS) is becoming more prevalent and showing excellent results in achieving accurate sensing with minimal infrastructure. Wifi signals are everywhere around us and can be used to detect humans and their different activities, like falling, walking, or even breathing. So, utilizing them provides firefighters with an affordable, portable, and convenient way to locate people inside burning buildings. Such live data could help them respond faster, keep safer, and rescue more lives.
 
-### 1.3 The idea
+### 1.3) The idea
 
 It's traumatic، not being able to rescue someone from death. A helpless feeling, especially when seeing these people's parents/chidren crying their eyes out and maybe even throwing blame. Having to live with that is unimaginable. BrickThru enables Firefighters to detect, locate and visualize humans inside a building on fire, which will allow them to rescue people easily, efficiently and in time. All that through utilizing Wifi networks, IBM Cloud tools and Watson Services.
 
